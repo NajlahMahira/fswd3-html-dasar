@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran BEM STMIK AMIK RIAU</title>
+  </head>
+  <body style="text-align: center;">
+    <h1 style="text-align: center;">Form Pendaftaran BEM(Badan Eksekutif Mahasiswa)</h1>
+    <form action="proses-pendaftaran.php" method="POST">
+    <fieldset>
+    <legend style="text-align: center;">Data Diri</legend>
+      <p style="text-align: center;">
+      <label for="nama">Nama Lengkap :</label><br>
+      <input type="text" id="nama" name="nama"><br>
+      <label for="nama_panggilan">Nama Panggilan :</label><br>
+      <input type="text" id="nama_panggilan" name="nama_panggilan"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <form>
+        <label for="Jenis_Kelamin">Jenis Kelamin:</label>
+      <div>
+        <input id="lk" type="radio" name="Jenis_Kelamin">
+        <label for="lk">Laki-Laki</label>
+      </div>
+      <div>
+        <input id="pr" type="radio" name="Jenis_Kelamin">
+        <label for="pr">Perempuan</label>
+      </div>
+    </form>
+      <label for="isian-tanggal-lahir">Tanggal Lahir</label><br>
+      <input id="isian-tanggal-lahir" name="tanggal_lahir" type="date"><br>
+      <label for="No. HP">No. HP:</label><br>
+      <input type="text" id="No.HP" name="No_HP"></input><br>
+      <label for="alamat">Alamat:</label><br>
+      <textarea id="alamat" name="alamat"></textarea><br>
+      <label for="Visi">Visi:</label><br>
+      <textarea id="Visi" name="Visi"></textarea><br>
+      <label for="Misi">Misi:</label><br>
+      <textarea id="Misi" name="Misi"></textarea><br>
+      <label for="Motto_Hidup">Motto Hidup:</label><br>
+      <textarea id="Motto_Hidup" name="Motto_Hidup"></textarea><br>
+      <label for="Jurusan">Pilih Jurusan : </label><br>
+            <select id="Jurusan" name="Jurusan">
+            <option value="">Pilih Jurusan</option>    
+            <option value="Teknik_Informatika">Teknik Informatika</option>
+            <option value="Sistem_Informasi">Sistem Informasi</option> 
+            <option value="Teknologi_Informasi">Teknologi Informasi</option> 
+            <option value="Manajemen_Informatika">Manajemen Informatika</option>
+            </select><br>
+         <br><form action="upload.php" method="post" enctype="multipart/form-data">
+                <label for="file">Upload CV Anda:</label>
+                <input type="file" name="file" id="file"><br><br>
+              </form><hr>
+      <input type="submit" value="Daftar"></p>
+    </fieldset>
+    </form>
+  </body>
+</html>
