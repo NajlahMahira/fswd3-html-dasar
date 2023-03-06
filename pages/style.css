@@ -1,0 +1,259 @@
+   /*row*/
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  /*card*/
+  .card-1{
+    background-color: rgba(208, 255, 0, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-2{
+    background-color: rgba(0, 255, 76, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-3{
+    background-color: rgba(110, 112, 111, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-4{
+    background-color: rgba(248, 177, 118, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-5{
+    background-color: rgba(95, 201, 196, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-6{
+    background-color: rgba(75, 167, 103, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-7{
+    background-color: rgba(159, 243, 91, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-8{
+    background-color: rgba(107, 122, 206, 0.79);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /*card hover*/
+  .card-1:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-2:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-3:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-4:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-5:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-6:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-7:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-8:hover {
+    transform: translateY(-10px);
+  }
+
+  /*card img*/
+  .card-1 img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+
+.card-2 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-3 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-4 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-5 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-6 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-7 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-8 img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+/*card description*/
+  .description {
+    text-align: center;
+    margin: 5px 0;
+	font-size: 15px;
+    background-color: white;
+  }
+
+  /*card paragraf*/
+  .card-1 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-2 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-3 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-4 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-5 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-6 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-7 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  .card-8 .p {
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+
+  /*Playlist*/
+  .playlist {
+    text-align: center;
+    font-size: xx-large;
+    background-color: antiquewhite;
+  }
+
+/*background*/
+  .background{
+    background-color: rgb(56, 32, 32);
+  }
+
+  /*background img*/
+  .background-img {
+background-image: url(../assets/img\ playlist/9.jpg);
+  }
