@@ -1,9 +1,7 @@
    /*row*/
-   .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px 0;
+  .row {
+    display: -webkit-inline-box;
+    margin: 20px 0;
   }
   /*card*/
   .card-1{
