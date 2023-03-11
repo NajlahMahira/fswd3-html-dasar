@@ -3,6 +3,15 @@
     height: 19%;
 }
 
+.body{
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
 .grid-container {
     width: 600px;
     height: 700px;
@@ -28,10 +37,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 1/3;
     grid-row: 1/3;
   }
   
+  .item-1:hover {
+    transform: translateY(-5px);
+  }
+
   .item-2 {
     width: auto;
     height: auto;
@@ -42,10 +56,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 3/5;
     grid-row: 1/2;
   }
   
+  .item-2:hover {
+    transform: translateY(-5px);
+  }
+
   .item-3 {
     width: auto;
     height: auto;
@@ -56,10 +75,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 3/4;
     grid-row: 2/4;
   }
   
+  .item-3:hover {
+    transform: translateY(-5px);
+  }
+
   .item-4 {
     width: auto;
     height: auto;
@@ -70,10 +94,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 4/5;
     grid-row: 2/3;
   }
   
+  .item-4:hover {
+    transform: translateY(-5px);
+  }
+
   .item-5 {
     width: auto;
     height: auto;
@@ -84,10 +113,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 1/3;
     grid-row: 3/5;
   }
   
+  .item-5:hover {
+    transform: translateY(-5px);
+  }
+
   .item-6 {
     width: auto;
     height: auto;
@@ -98,9 +132,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 3/4;
     grid-row: 4/5;
   }
+
+  .item-6:hover {
+    transform: translateY(-5px);
+  }
+
   .item-7 {
     width: auto;
     height: auto;
@@ -111,9 +151,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 4/5;
     grid-row: 3/5;
   }
+
+  .item-7:hover {
+    transform: translateY(-5px);
+  }
+
   .item-8 {
     width: auto;
     height: auto;
@@ -124,9 +170,15 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 1/4;
     grid-row: 5/6;
   }
+
+  .item-8:hover {
+    transform: translateY(-5px);
+  }
+
   .item-9 {
     width: auto;
     height: auto;
@@ -137,18 +189,33 @@
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 4/5;
     grid-row: 5/6;
   }
+
+  .item-9:hover {
+    transform: translateY(-5px);
+  }
+
   .item-10 {
-    
+    width: 100%;
+    height: 50%;
     background: #00ffc4;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/home.png);
-    background-size: 50px;
     background-position: center center;
-    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
     grid-column: 1/5;
     grid-row: 6/7;
   }
+
+  .item-10:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+}
