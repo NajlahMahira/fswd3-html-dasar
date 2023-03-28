@@ -1,12 +1,12 @@
 const baseUrl = "https://crudcrud.com/api/";
-const apiKey = "9b042629eb61432990ef10a59d63dc5a";
-const url = baseUrl + apiKey + "/todos";
+const apiKey = "89a41bab89444e5f9b8c86e72b1f5ab7";
+const url = baseUrl + apiKey;
 
 let todos = [];
 
 loadTodos();
 
-function newElemen() {
+function newElement() {
   var inputValue = document.getElementById("myInput").value;
   if (!inputValue) {
     alert("Todo tidak boleh kosong!");
@@ -104,4 +104,3 @@ function loadTodos() {
             });
         });
 }
-

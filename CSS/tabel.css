@@ -1,0 +1,8 @@
+table,
+            th,
+            td {
+                border-width: 1px;
+                border-color: black;
+                border-style: outset;
+                padding-bottom: 5px;
+            }

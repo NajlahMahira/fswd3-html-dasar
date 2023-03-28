@@ -4,7 +4,7 @@
 }
 
 .body{
-    background-image: url(../assets/background.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +33,7 @@
     background: rgb(19, 185, 0);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/windows.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/windows.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     background: rgb(0, 208, 255);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/wifi.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/wifi.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@
     background: rgba(139, 57, 9, 0.516);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/spotify.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/spotify.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
     background: #75ff00;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/explorer.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/explorer.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@
     background: rgb(66, 21, 189);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/word.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/word.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@
     background: rgba(216, 26, 83);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/excel.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/excel.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@
     background: rgb(128, 14, 169);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-image: url(../assets/img\ layout\ grid/chrome.png);
+    background-image: url(../assets/img\ layout\ flex\ dan\ grid/chrome.png);
     background-size: 50px;
     background-position: center center;
     background-repeat: no-repeat;
